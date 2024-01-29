@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+      }
+      #showcase {
+        background: url("manzara.jpg");
+        background-position: center;
+        height: 500px;
+        width: 100%;
+        padding: 10px;
+      }
+      #how-it-works {
+        padding: 10px;
+        text-align: center;
+      }
+      .main-header {
+        background-color: #fc997c;
+        padding: 8px 16px;
+      }
+      .main-nav {
+        display: inline-block;
+        width: calc(100% - 99px);
+        text-align: right;
+      }
+      .main-nav__items {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .main-nav__item {
+        display: inline-block;
+        margin: 0 10px;
+      }
+      .main-header__logo {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 21px;
+      }
+      .main-nav__item a {
+        text-decoration: none;
+        color: #fff;
+      }
+      .main-nav__item a::before {
+        content: "\2022";
+        margin: 5px;
+      }
+      .main-nav__item a:hover {
+        color: #2e4c6d;
+      }
+      .main-nav__item a:active {
+        color: #fff;
+      }
+      .main-nav__item--login a {
+        color: #fff;
+        background-color: #2e4c6d;
+        padding: 4px 16px;
+        border-radius: 8px;
+        border: 2px solid #fff;
+      }
+      .main-nav__item--login a::before {
+        content: none;
+      }
+      .main-nav__item--login a:hover {
+        color: #2e4c6d;
+        background-color: #fff;
+        border-color: #2e4c6d;
+      }
+      .box {
+        display: inline-block;
+        width: 25%;
+        margin: 10px;
+      }
+      .box h3 {
+        color: #3e4555;
+        font-size: 26px;
+      }
+      #how-it-works h2 {
+        color: #3e4555;
+        font-size: 30px;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="main-header">
+      <a href="#" class="main-header__logo">Movieapp</a>
+      <nav class="main-nav">
+        <ul class="main-nav__items">
+          <li class="main-nav__item"><a href="#">Filmler</a></li>
+          <li class="main-nav__item"><a href="#">Diziler</a></li>
+          <li class="main-nav__item main-nav__item--login">
+            <a href="#">Login</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="showcase">
+        <h1>Welcome to movieapp</h1>
+      </section>
+      <section id="how-it-works">
+        <h2>How it works?</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ex
+          explicabo ad facere consectetur temporibus.
+        </p>
+        <div class="box">
+          <h3>Register</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            modi nam nobis minima rerum debitis?
+          </p>
+        </div>
+        <div class="box">
+          <h3>Chose a Plan</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            modi nam nobis minima rerum debitis?
+          </p>
+        </div>
+        <div class="box">
+          <h3>Enjoy Movies</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            modi nam nobis minima rerum debitis?
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
