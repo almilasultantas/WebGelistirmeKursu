@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- external css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- internal css -->
+    <style>
+      section {
+        background-color: #ffd0ec;
+        color: #81689d;
+        text-align: center;
+      }
+      .headerh1 {
+        border-bottom: 1px solid red;
+      }
+      /* kalıtım */
+      p {
+        color: red;
+        border: 1px solid #2e4c6d;
+      }
+      em {
+        border: inherit;
+        color: initial;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="headerh1">Welcome to movieapp</h1>
+    <!-- external css -->
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">anasayfa</a>
+          </li>
+          <li>
+            <a href="#">kategoriler</a>
+          </li>
+
+          <li>
+            <a href="#">hakkımızda</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- inline css -->
+    <main>
+      <section style="background-color: #2e4c6d; color: #fff">
+        <h1>Welcome to movieapp</h1>
+      </section>
+      <section style="background-color: #2e4c6d; color: #fff">
+        <h1>How it works?</h1>
+      </section>
+    </main>
+    <!-- internal css -->
+    <section>
+      <h1>Welcome to movieapp</h1>
+    </section>
+    <section>
+      <h1>How it works?</h1>
+    </section>
+
+    <p>
+      Lorem ipsum dolor sit amet <em>Lorem, ipsum dolor.</em>consectetur
+      adipisicing elit. Sed qui nesciunt tenetur minus a vitae. Nemo sapiente
+      nisi aliquid iure?
+    </p>
+  </body>
+</html>

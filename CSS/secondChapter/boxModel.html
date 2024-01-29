@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      #showcase {
+        background-color: #2e4c6d;
+        margin: 20px;
+        padding: 50px;
+      }
+      #how-it-works {
+        background-color: #fc997c;
+        margin: 20px;
+        /* burada iki idyede margin verdik ve bunların arasında kalan alan ikisinin arasında en büyük hangisi ise o uygulanır sadece, ikisi eşit olduğu için burada direkt 20px uygulanıyor buna margin collapsing deniyor*/
+      }
+    </style>
+  </head>
+  <body>
+    <!-- margin
+         padding
+         border -->
+    <main>
+      <section id="showcase">
+        <h1>Welcome to movieapp</h1>
+      </section>
+      <section id="how-it-works">
+        <h2>How it works?</h2>
+      </section>
+    </main>
+  </body>
+</html>

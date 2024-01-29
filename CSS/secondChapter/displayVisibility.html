@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        height: 60px;
+        width: 60px;
+        display: inline-block;
+      }
+      #first {
+        background-color: red;
+      }
+      #second {
+        background-color: green;
+      }
+      #third {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- display:none | inline | inline-block | block -->
+    <div class="box" id="first">first</div>
+    <div class="box" id="second" style="display: none">second</div>
+    <div class="box" id="third">third</div>
+    <br />
+    <div class="box" id="first">first</div>
+    <div class="box" id="second" style="visibility: hidden">second</div>
+    <div class="box" id="third">third</div>
+  </body>
+</html>

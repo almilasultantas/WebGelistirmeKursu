@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      a {
+        border: 1px solid blueviolet;
+        padding: 5px 8px;
+        display: inline-block;
+        text-decoration: none;
+        width: 60px;
+        text-align: center;
+      }
+      a:link {
+        /* tıklanmadıysa */
+        color: red;
+      }
+      a:visited {
+        /* tıklandıysa */
+        color: green;
+      }
+      a:hover {
+        /* hover state */
+        color: #fff;
+        background-color: yellow;
+      }
+      a:active {
+        /* tek tıklama ile beklediğimiz anda */
+        color: #fff;
+        background-color: violet;
+      }
+      p {
+        display: none;
+      }
+      div:hover p {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Pseudo Classes -->
+    <a href="#">Home</a>
+    <a href="#1">Products</a>
+    <a href="#2">About</a>
+    <br />
+    <div>
+      Click Here!
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, error.
+        Necessitatibus aut quasi laborum id nihil iusto autem magni! Velit,
+        provident impedit adipisci ab doloribus dolorem voluptatem totam aliquam
+        saepe, aliquid eum autem? Ab, fugiat dolor nihil libero cum saepe non
+        corporis odit veniam sapiente velit laborum dolore minima consequuntur?
+      </p>
+    </div>
+    <!-- Pseudo Elements -->
+  </body>
+</html>
