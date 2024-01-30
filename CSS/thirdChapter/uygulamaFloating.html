@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      nav {
+        padding: 3%;
+        background-color: blueviolet;
+        color: orange;
+      }
+      .menu {
+        width: 25%;
+      }
+      .content {
+        width: 75%;
+      }
+      .menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+      .menu li {
+        background-color: crimson;
+        padding: 8px;
+        margin-bottom: 8px;
+      }
+      .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+      .col {
+        float: left;
+        padding: 15px 15px 15px 0;
+      }
+      .menu li:hover {
+        cursor: pointer;
+        background-color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav><h1>Header</h1></nav>
+    </header>
+    <section class="clearfix">
+      <div class="menu col">
+        <ul>
+          <li><a href="#">Html</a></li>
+          <li><a href="#">Css</a></li>
+          <li><a href="#">JavaScript</a></li>
+        </ul>
+      </div>
+
+      <div class="content col">
+        <h1>Komple Web Geliştirme Eğitimi</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea iure
+          nostrum temporibus natus hic! Recusandae aut error labore aliquid
+          atque blanditiis incidunt! Eos facere ad tempora aliquid aperiam
+          voluptatem enim, harum recusandae reiciendis earum culpa. Odit
+          explicabo porro architecto repudiandae quasi reiciendis laudantium,
+          quia commodi asperiores voluptate eveniet ipsam itaque incidunt
+          suscipit! Ipsum ad quisquam fuga, unde amet asperiores cum
+          reprehenderit cupiditate maiores quaerat officiis, ea, deleniti
+          obcaecati! Similique, atque!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam
+          necessitatibus voluptatem unde molestias corporis illo incidunt,
+          repellendus, autem fuga, quidem laudantium ipsam totam natus provident
+          minima est ipsa ducimus! Impedit quia et minima maiores, numquam
+          laudantium iste debitis similique corrupti itaque quam dignissimos
+          nostrum magni culpa ducimus. Inventore, soluta incidunt?
+        </p>
+      </div>
+    </section>
+    <footer>
+      <nav><h1>Footer</h1></nav>
+    </footer>
+  </body>
+</html>

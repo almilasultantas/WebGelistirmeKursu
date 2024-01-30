@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #container {
+        background-color: aquamarine;
+      }
+      .box {
+        width: 150px;
+        height: 150px;
+        background-color: brown;
+        float: right;
+      }
+      #box1 {
+        float: left;
+      }
+      .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="box" id="box1">Kutu 1</div>
+      <div class="box">Kutu 2</div>
+      <div class="box">Kutu 3</div>
+      <div style="clear: both"></div>
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ducimus
+      molestiae fuga praesentium omnis tempora facilis odio minus et illo?
+    </p>
+    <hr />
+    <div id="container" class="clearfix">
+      <div class="box" id="box1">Kutu 1</div>
+      <div class="box">Kutu 2</div>
+      <div class="box">Kutu 3</div>
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ducimus
+      molestiae fuga praesentium omnis tempora facilis odio minus et illo?
+    </p>
+    <hr />
+    <div id="container">
+      <div class="box" id="box1">Kutu 1</div>
+      <div class="box">Kutu 2</div>
+      <div class="box">Kutu 3</div>
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ducimus
+      molestiae fuga praesentium omnis tempora facilis odio minus et illo?
+    </p>
+  </body>
+</html>
